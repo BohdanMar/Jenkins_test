@@ -6,7 +6,7 @@ pipeline {
             steps {
                 //library identifier: 'shared-library@thisIsRequiredButIgnored', retriever: legacySCM(scm)
                 script{
-                    manager.addShortText("BUILD TRIGGERED BY : $BUILD_USER")
+                    //manager.addShortText("BUILD TRIGGERED BY : $BUILD_USER")
                 }
             }
     }
