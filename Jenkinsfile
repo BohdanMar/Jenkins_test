@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        url_name = "${URL}"
+        url_name = "${url_name}"
     }
     stages {
         stage('Load shared libs from local repo') {
