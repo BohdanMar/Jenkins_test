@@ -1,1 +1,1 @@
-echo ${url_name}
+echo $url_name
