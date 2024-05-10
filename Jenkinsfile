@@ -17,7 +17,7 @@ pipeline {
                     cd $(mktemp -d)
                     git clone https://github.com/BohdanMar/Jenkins_test.git
                     cd Jenkins_test
-                    python3 hello.py
+                    sh hello.py
                     '''
                 }
             }
