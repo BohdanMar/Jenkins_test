@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Load shared libs from local repo') {
             steps {
-                library identifier: 'shared-library@thisIsRequiredButIgnored', retriever: legacySCM(scm)
+                //library identifier: 'shared-library@thisIsRequiredButIgnored', retriever: legacySCM(scm)
                 script{
                     manager.addShortText("BUILD TRIGGERED BY : $BUILD_USER")
                 }
